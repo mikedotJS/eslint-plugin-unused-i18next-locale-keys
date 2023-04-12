@@ -1,0 +1,23 @@
+# Ignore node modules
+node_modules/
+
+# Ignore built artifacts
+dist/
+
+# Ignore compiled output
+lib/
+
+# Ignore editor files and artifacts
+.vscode/
+*.swp
+*.swo
+*.bak
+.DS_Store
+.idea/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore coverage reports
+coverage/
