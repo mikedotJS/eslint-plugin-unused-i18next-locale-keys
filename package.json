@@ -1,14 +1,30 @@
 {
   "name": "eslint-plugin-unused-i18next-locale-keys",
-  "version": "1.0.0",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikedotJS/eslint-plugin-unused-i18next-locale-keys"
+  },
+  "version": "1.0.2",
+  "description": "An ESLint plugin that checks for unused translation keys in JSON locale files and warns or errors when it finds any.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "i18n",
+    "unused-keys",
+    "translations",
+    "lint",
+    "locales"
+  ],
+  "author": "Mike Romain <mchlrmn@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikedotJS/eslint-plugin-unused-i18next-locale-keys/issues"
+  },
+  "homepage": "https://github.com/mikedotJS/eslint-plugin-unused-i18next-locale-keys#readme",
   "devDependencies": {
     "eslint": "^8.38.0"
   },
@@ -19,5 +35,9 @@
     "@babel/preset-typescript": "^7.21.4",
     "@babel/traverse": "^7.21.4",
     "globby": "^13.1.4"
-  }
+  },
+  "files": [
+    "index.js",
+    "rules/"
+  ]
 }
